@@ -6,7 +6,7 @@ import pandas as pd
 aCCF = pd.read_csv(r'aCCF_All004.csv')
 NB = pd.read_csv(r'NB_All004.csv')
 SD = pd.read_csv(r'SD_All004.csv')
-# 首先有图（fig），然后有轴（ax）
+
 fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(18, 5))
 bplot1 = axes[0].boxplot(aCCF,
                          vert=True,widths=0.4,#labels=['PS','F-dS'],
