@@ -1,5 +1,5 @@
 #Python code implementing simulations of a stochastic branching process model of tumour growth and mutation
-# accumulations with a clonal antigenic mutation, under purifying selection (PS) from the immune system due to randomly
+# accumulations, under purifying selection (PS) from the immune system due to randomly
 # arising antigenic mutations. This code corresponds to an ideal population/measurement, with no measurement noise
 # (but intrinsic stochasticity) and user-defined detection limit for mutations.
 #    @Author: Shaoqing Chen (chenshaoqingstu.xmu.edu.cn)
@@ -15,7 +15,7 @@ db = 0.1 # Basal death rate
 cutoff =0 # Immunogenicity threshold
 s = -0.8 # negative selection intensity
 init_mut_num = 1
-mutations = dict(zip(range(init_mut_num), [[0.2, 1] for _ in range(init_mut_num)]))
+mutations = {}
 sumA = {}
 
 # Define negative selection
@@ -83,7 +83,7 @@ class System:
 
         else:
             self.n = [np.array(inits)]
-            self.cells = [Cell(mutation=list(range(init_mut_num))) for _ in range(int(self.n[0][0]))]
+            self.cells = [Cell() for _ in range(int(self.n[0][0]))]
 
     def add_reaction(self, rate=0., num_lefts=None, num_rights=None, index=None):
         assert len(num_lefts) == self.num_elements
