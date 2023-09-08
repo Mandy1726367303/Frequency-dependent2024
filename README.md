@@ -1,6 +1,6 @@
 # FreqDependSimulation
 
-Neoantigens accumulated in cancers can elicit immune response but may not necessarily be eliminated by the immune system when present at low frequencies. The scripts in this repository implement a stochastic branching process-based simulation of tumour growth, taking into account the chance acqusition of antigenic mutations and negative frequency-dependent selection (NFDS). For results and further discussion, see our preprint, [...](https://...).
+Neoantigens accumulated in cancers can elicit immune response but may not necessarily be eliminated by the immune system when present at low frequencies. The scripts in this repository implement a stochastic branching process-based simulation of tumour growth, taking into account the chance acqusition of antigenic mutations and negative frequency-dependent selection (NFDS). 
 
 ## Simulation details
 
