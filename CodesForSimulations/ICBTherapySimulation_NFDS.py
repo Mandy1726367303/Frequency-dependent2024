@@ -1,6 +1,6 @@
 #Python code implementing simulations of checkpoint inhibitor therapy, under negative frequency-dependent selection
 # (NFDS) from the immune system. This code corresponds to an ideal population/measurement, with no measurement noise
-# (but intrinsic stochasticity) and user-defined detection limit for mutations.
+# (but intrinsic stochasticity).
 #    @Author: Shaoqing Chen (chenshaoqingstu.xmu.edu.cn)
 
 import numpy as np
