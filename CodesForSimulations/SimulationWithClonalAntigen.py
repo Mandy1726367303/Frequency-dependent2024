@@ -1,7 +1,7 @@
 #Python code implementing simulations of a stochastic branching process model of tumour growth and mutation
 # accumulations with a clonal antigenic mutation, under purifying selection (PS) from the immune system due to randomly
 # arising antigenic mutations. This code corresponds to an ideal population/measurement, with no measurement noise
-# (but intrinsic stochasticity) and user-defined detection limit for mutations.
+# (but intrinsic stochasticity).
 #    @Author: Shaoqing Chen (chenshaoqingstu.xmu.edu.cn)
 
 import numpy as np
