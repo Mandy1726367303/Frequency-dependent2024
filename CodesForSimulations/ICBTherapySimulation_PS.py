@@ -1,6 +1,6 @@
 #Python code implementing simulations of checkpoint inhibitor therapy, under purifying selection (PS) from the
 # immune system. This code corresponds to an ideal population/measurement, with no measurement noise (but intrinsic
-# stochasticity) and user-defined detection limit for mutations.
+# stochasticity).
 #    @Author: Shaoqing Chen (chenshaoqingstu.xmu.edu.cn)
 
 import numpy as np
