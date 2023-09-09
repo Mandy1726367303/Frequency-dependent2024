@@ -1,6 +1,6 @@
 #Python code implementing simulations of a stochastic branching process model of tumour growth and mutation
 # accumulations, under negative frequency-dependent selection (NFDS). This code corresponds to an ideal population/measurement,
-# with no measurement noise (but intrinsic stochasticity) and user-defined detection limit for mutations.
+# with no measurement noise (but intrinsic stochasticity).
 #    @Author: Shaoqing Chen (chenshaoqingstu.xmu.edu.cn)
 
 import numpy as np
