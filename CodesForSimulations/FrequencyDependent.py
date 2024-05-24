@@ -49,6 +49,16 @@ class Cell:
 # A tumor cell reaches the immunogenicity threshold its death rate depends on its antigenicity and the selection intensity
         else:return (1 + s * sumA) * (db - 1) + 1
 
+## Another way to simulation frequency-dependent slection on neoantigens
+#def sumA(self):
+#       mutation = self.mutation
+#       ccf = [mutations[i][1] / system.n[-1] for i in mutation]
+#       for j in range(len(ccf)):
+#           ccf[j] = 0 if ccf[j]<c else 1 ## where c is a predefine cutoff for CCF of each mutation
+#       anti = [mutations[i][0] for i in mutation]
+#       suma = float(sum(np.multiply(ccf,anti)))
+#       return suma
+
 class Reaction:
     def __init__(self, rate=0., num_lefts=None, num_rights=None, index=None):
         self.rate = rate
