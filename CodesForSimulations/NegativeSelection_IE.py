@@ -1,7 +1,7 @@
 #Python code implementing simulations of a stochastic branching process model of tumour growth and mutation
 # accumulations, under purifying selection (PS) with subclonal immune escape (the effect of checkpoint ligand overexpression).
 # This code corresponds to an ideal population/measurement, with no measurement noise (but intrinsic stochasticity).
-#    @Author: Shaoqing Chen (chenshaoqingstu.xmu.edu.cn)
+#    @Author: Shaoqing Chen (chenshaoqing.stu.xmu.edu.cn)
 
 import numpy as np
 from scipy.special import comb
