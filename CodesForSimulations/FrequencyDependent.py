@@ -1,7 +1,7 @@
 #Python code implementing simulations of a stochastic branching process model of tumour growth and mutation
 # accumulations, under negative frequency-dependent selection (NFDS). This code corresponds to an ideal population/measurement,
 # with no measurement noise (but intrinsic stochasticity).
-#    @Author: Shaoqing Chen (chenshaoqingstu.xmu.edu.cn)
+#    @Author: Shaoqing Chen (chenshaoqing.stu.xmu.edu.cn)
 
 import numpy as np
 from scipy.special import comb
@@ -49,7 +49,7 @@ class Cell:
 # A tumor cell reaches the immunogenicity threshold its death rate depends on its antigenicity and the selection intensity
         else:return (1 + s * sumA) * (db - 1) + 1
 
-## Another way to simulation frequency-dependent slection on neoantigens
+## Another way to simulation frequency-dependent selection on neoantigens
 #def sumA(self):
 #       mutation = self.mutation
 #       ccf = [mutations[i][1] / system.n[-1] for i in mutation]
