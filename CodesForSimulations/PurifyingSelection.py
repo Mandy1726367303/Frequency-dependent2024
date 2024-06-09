@@ -2,7 +2,7 @@
 # accumulations, under purifying selection (PS) from the immune system due to randomly
 # arising antigenic mutations. This code corresponds to an ideal population/measurement, with no measurement
 # noise (but intrinsic stochasticity).
-#    @Author: Shaoqing Chen (chenshaoqingstu.xmu.edu.cn)
+#    @Author: Shaoqing Chen (chenshaoqing.stu.xmu.edu.cn)
 
 import numpy as np
 from scipy.special import comb
